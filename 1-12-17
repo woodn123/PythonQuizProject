@@ -1,0 +1,115 @@
+
+# Trivia Quiz
+
+print("This is a quiz that tests your knowledge on basic math")
+
+name = input("Enter your name: ")
+
+print("\nHello", name + ' are you ready to take this quiz? \n')
+print("I will ask you 10 questions and give you three choices for each question")
+print('\nSelect the right choice by pressing a, b, or c\n')
+
+print("-------------------------------------------------------------------------")
+
+# Set the quiz score to 0
+
+score = 0
+score = int(score) # Convert 0 into a number so we can add scores
+
+# Question 1
+
+print("Question 1: What is 4x4?")
+print("A. 16")
+print("B. 44")
+print("C. 4 Times 4")
+print('')
+
+Q1answer = 'A' # Right Answer
+Q1response = input("Your Answer: ")
+
+if Q1response == 'A' or Q1response == 'a' :
+    print('Correct!', Q1response + ' is correct')
+else:
+    print("I am sorry,", Q1response + " is incorrect")
+
+if Q1response == 'A' or Q1response == 'a' :
+    score = score  + 1
+        
+print("Your current score is: " , score )
+print('')
+# Question 2
+
+print('Question 2: What is 169 divided by 13?')
+print('')
+print('A. 14')
+print('B. 17')
+print('C. 13')
+
+print('')
+
+Q2answer = 'C' # Right Answer
+Q2response = input("Your Answer: ")
+
+if Q2response == 'c' or Q2response == 'C' :
+    print('Correct,' , Q2response + ' is correct')
+
+else:
+    print("I am sorry,", Q2response + " is incorrect")
+    
+if Q2response == 'c' or Q2response == 'C' :
+    score = score + 1
+    print('Your score is: ', score)
+else:
+    print('Your score is: ', score)
+print('')
+# Question 3 
+
+print('Question 3: What is the square root of 1024?')
+print('')
+print('A. 28')
+print('B. 32')
+print('C. 42')
+
+print('')
+
+Q3answer = 'B' # Right answer
+Q3response = input('Your answer: ')
+
+if Q3response == 'B' or Q3response == 'b' :
+    print('Correct,', Q3answer + ' is the right choice')
+    score = score + 1
+    print("Your score is:", score )
+else:
+    print("I am sorry,", Q3response + " is incorrect")
+    print("Your score is", score)
+print('')
+# Question 4
+
+print('Question 4: What is 425 divided by 25?')
+print('')
+print('A. 17')
+print('B. 25')
+print('C. 8')
+
+print('')
+
+Q4answer = 'A' # Right answer
+Q4response = input('Your answer: ')
+
+if Q4response == 'A' or Q4response == 'a' :
+    print("Correct,", Q4answer + ' is the right choice')
+    score = score + 1
+    print("Your score is:", score )
+else:
+    print("I am sorry,", Q4response + " is incorrect")
+    print('Your score is:',score)
+
+# Question 5
+print('Question 5: Who created League of Legends?')
+
+q5answer = 'Riot_Games'
+q5response = input('Your Answer is: ')
+
+if q5response == 'Riot Games' or q5response == 'riot games' or q5response == 'riot Games' or q5response == 'Riot games' :
+    print("Correct!", q5response + ' is correct.')
+

@@ -1,0 +1,205 @@
+# Trivia Quiz
+
+print("This is a quiz that tests your knowledge on Python")
+
+name = input("Enter your name: ")
+
+print("\nHello", name + ' are you ready to take this quiz? \n')
+print("I will ask you 10 questions and give you three choices for each question")
+print('\nSelect the right choice by pressing a, b, or c\n')
+
+print("-------------------------------------------------------------------------")
+
+# Set the quiz score to 0
+
+score = 0
+score = int(score) # Convert 0 into a number so we can add scores
+
+# Question 1
+
+print("Question 1: What Python command prints text?")
+print('')
+print("A. print")
+print("B. Print")
+print("C. write")
+print('')
+
+Q1answer = 'A' # Right Answer
+Q1response = input("Your Answer: ")
+print('')
+if Q1response == 'A' or Q1response == 'a' :
+    print('Correct!', Q1response + ' is correct')
+    score = score + 1
+    print('Your score is:', score)
+else:
+    print("I am sorry,", Q1response + " is incorrect")
+    print("Your current score is:" , score )
+print('')
+# Question 2
+
+print('Question 2: What type of variable is "True"?')
+print('')
+print('A. str')
+print('B. float')
+print('C. bool')
+
+print('')
+
+Q2answer = 'C' # Right Answer
+Q2response = input("Your Answer: ")
+print('')
+if Q2response == 'c' or Q2response == 'C' :
+    print('Correct,' , Q2response + ' is correct')
+    score = score + 1
+    print('Your score is:', score)
+else:
+    print("I am sorry,", Q2response + " is incorrect")
+    print('Your score is:', score)
+    
+print('')
+# Question 3 
+
+print('Question 3: What is the correct code?')
+print('')
+print('A. print("Hello World!"')
+print('B. print("Hello World!")')
+print('C. Print(Hello World!)')
+
+print('')
+
+Q3answer = 'B' # Right answer
+Q3response = input('Your answer: ')
+print('')
+if Q3response == 'B' or Q3response == 'b' :
+    print('Correct,', Q3answer + ' is correct')
+    score = score + 1
+    print("Your score is:", score )
+else:
+    print("I am sorry,", Q3response + " is incorrect")
+    print("Your score is:", score)
+print('')
+# Question 4
+
+print('Question 4: What version of Python are we using in class?')
+print('')
+print('A. 3')
+print('B. 2')
+print('C. 1')
+
+print('')
+
+Q4answer = 'A' # Right answer
+Q4response = input('Your answer: ')
+print('')
+if Q4response == 'A' or Q4response == 'a' :
+    print("Correct,", Q4answer + ' is the right choice')
+    score = score + 1
+    print("Your score is:", score )
+else:
+    print("I am sorry,", Q4response + " is incorrect")
+    print('Your score is:', score)
+print('')
+
+# Question 5
+print('Question 5: What does == mean? ')
+print('')
+print('A. Python is asking if value a is equal to value b')
+print('B. Setting the first value as a variable')
+print('C. The answer to an equation')
+
+print('')
+q5answer = 'B' # Right answer
+q5response = input('Your Answer: ')
+print('')
+if q5response == q5response == 'a' or q5response == 'A' :
+    print("Correct,", q5response + ' is correct.')
+    score = score + 1
+    print('Your score is:', score)
+else:
+    print('I am sorry,', q5response + ' is incorrect')
+    print('Your score is:', score)
+
+print('')
+print('For the next five questions, you,', name + ' will be inputting the answer.')
+print('')
+print('------------------------------------------------------------------------------')
+print('')
+# Question 6
+
+print('Question 6: What command would a user use so that only number can be inputted into the input function?')
+print('')
+q6answer = 'float' # Right Answer
+q6response = input('Your Answer: ')
+print('')
+if q6response == 'float' or q6answer == 'int' :
+    print('Correct,', q6response + ' is correct')
+    score = score + 1
+    print('Your score is:', score)
+else:
+    print('I am sorry,', q6response + ' is incorrect')
+    print('Your score is:', score)
+
+# Question 7
+print('')
+print('Question 7: What type of variable is the value 5?')
+print('')
+q7answer = 'int' # Right Answer
+q7response = input('Your Answer: ')
+print('')
+if q7response == 'int' or q6response == 'Int' or q6response == 'Integer' or q6response == 'integer' :
+    print('Correct,', q7answer + ' is correct')
+    score = score + 1
+    print('Your score is:', score)
+else:
+    print('I am sorry,', q7answer + ' is incorrect')
+    print('Your score is:', score)
+
+# Question 8
+print('')
+print('Question 8: What symbol defines variables?')
+print('')
+q8answer = '='
+q8response = input('Your Answer: ')
+print('')
+if q8response == '=' :
+    print('Correct,', q8answer + ' is correct')
+    score = score + 1
+    print('Your score is:', score)
+else:
+    print('I am sorry,', q8answer + ' is incorrect')
+    print('Your score is:', score)
+
+# Question 9
+print('')
+print('Question 9: What type of variable is 10.0?')
+print('')
+q9answer = 'float' # Right Answer
+q9response = input('Your Answer: ')
+print('')
+if q9response == 'float' or q9response == 'Float' :
+    print('Correct,', q9response + ' is correct')
+    score = score + 1
+    print('Your score is:', score)
+else:
+    print('I am sorry,', q9response + ' is incorrect')
+    print('Your score is:', score)
+
+# Question 10
+print('')
+print('Question 10: How does a user create a comment?')
+print('')
+q10answer = '#'
+q10response = input('Your Answer: ')
+print('')
+if q10response == '#' :
+    print('Correct,', q10response + ' is correct')
+    score = score + 1
+    print('Your score is:', score)
+else:
+    print('I am sorry,', q10response + ' is incorrect')
+    print('Your score is:', score)
+
+print('--------------------------------------------------------------------------------')
+print('')
+print('Congragulation', name + ' for completing this quiz on basic Python! Your final score is:', score)
+

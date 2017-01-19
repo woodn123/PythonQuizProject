@@ -1,0 +1,46 @@
+# This is a math quiz, it will test the users basic math skills
+
+print("Hello, this is a quiz that will test you, the user and your basic math skills.")
+print('')
+name = str(input('User, may I ask what your name is? ' ))
+print('Hello', name + ' that is such a nice name.')
+print('')
+print('This quiz is out of 10 points, your score will be displayed after every question')
+print('Your quiz will begin below, good luck', name + '.')
+
+print('----------------------------------------------------------------------------')
+print('')
+
+score = 0
+
+# Question 1
+print('Question 1: What is the square root of 169?')
+print('')
+q1response = input('Your Answer: ')
+q1answer = '13'
+
+if q1response == '13':
+    print('Correct,', q1response +' is right!')
+    score = score + 1
+    print('Current score is:', score)
+else:
+    print("I'm sorry,", q1response + 'is incorrect.')
+    print('Current score:', score)
+
+# Question 2
+print('Question 2: What kind of triangle has a 90 degree angle?')
+print('')
+q2answer = 'Right'
+q2response = str(input('Your answer is: '))
+
+if q2response == 'Right Triangle' or q2response == 'Right triangle' or q2response == 'right triangle' : 
+        print('Correct,', q2response + ' is right!')
+        score = score + 1
+        print('Current Score:', score)
+else:
+    print("I'm sorry,", q2response + ' is incorrect.')
+    print('Current Score:', score)
+
+# Question 3
+
+print('Question 3: ')

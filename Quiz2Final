@@ -1,0 +1,162 @@
+# This is a math quiz, it will test the users basic math skills
+
+print("Hello, this is a quiz that will test you, the user and your basic math skills.")
+print('')
+name = str(input('User, may I ask what your name is? ' ))
+print('Hello', name + ' that is such a nice name.')
+print('')
+print('Your quiz will begin below, good luck', name + '.')
+
+print('----------------------------------------------------------------------------')
+print('')
+
+score = 0
+
+# Question 1
+print('Question 1: What is the square root of 169?')
+print('')
+q1response = input('Your Answer: ')
+q1answer = '13'
+
+if q1response == '13':
+    print('Correct,', q1response +' is right!')
+    score = score + 1
+    print('Current score is:', score)
+else:
+    print("I'm sorry,", q1response + 'is incorrect.')
+    print('Current score is:', score)
+
+# Question 2
+print('Question 2: What kind of triangle has a 90 degree angle?')
+print('')
+q2answer = 'Right'
+q2response = str(input('Your answer is: '))
+
+if q2response == 'Right Triangle' or q2response == 'Right triangle' or q2response == 'right triangle':
+    print('Correct,', q2answer + ' is right!')
+    score = score + 1
+    print('Current Score is:', score)
+else:
+    print("I'm sorry,", q2answer + 'is incorrect.')
+
+# Question 3
+print('Question 3: What is 15 squared')
+print('')
+q3response = input('Your Answer: ')
+q3answer = '225'
+
+if q3response == '225':
+    print('Correct,', q3response +' is right!')
+    score = score + 1
+    print('Current score is:', score)
+else:
+    print("I'm sorry,", q3response + 'is incorrect.')
+    print('Current score is:', score)
+
+# Question 4
+
+print('Question 4: What is 256 divided by 16?')
+print('')
+q4response = input('Your Answer: ')
+q4answer = '16'
+
+if q4response == '16':
+    print('Correct,', q4response +' is right!')
+    score = score + 1
+    print('Current score is:', score)
+else:
+    print("I'm sorry,", q4response + 'is incorrect.')
+    print('Current score is:', score)
+
+# Question 5
+
+print('Question 5: What is 128 times 4?')
+print('')
+q5response = input('Your Answer: ')
+q5answer = '504'
+
+if q5response == '504':
+    print('Correct,', q5response +' is right!')
+    score = score + 1
+    print('Current score is:', score)
+else:
+    print("I'm sorry,", q5response + 'is incorrect.')
+    print('Current score is:', score)
+
+# Question 6
+
+print('Question 6: What is the square root of 196?')
+print('')
+q6response = input('Your Answer: ')
+q6answer = '14'
+
+if q6response == '14':
+    print('Correct,', q6response +' is right!')
+    score = score + 1
+    print('Current score is:', score)
+else:
+    print("I'm sorry,", q6response + 'is incorrect.')
+    print('Current score is:', score)
+
+# Question 7
+
+print('Question 7: What is 6 raised to the 3rd power?')
+print('')
+q7response = input('Your Answer: ')
+q7answer = '216'
+
+if q7response == '216':
+    print('Correct,', q7response +' is right!')
+    score = score + 1
+    print('Current score is:', score)
+else:
+    print("I'm sorry,", q7response + 'is incorrect.')
+    print('Current score is:', score)
+
+# Question 8
+
+print('Question 8: What is the square root of 144?')
+print('')
+q8response = input('Your Answer: ')
+q8answer = '12'
+
+if q8response == '12':
+    print('Correct,', q8response +' is right!')
+    score = score + 1
+    print('Current score is:', score)
+else:
+    print("I'm sorry,", q8response + 'is incorrect.')
+    print('Current score is:', score)
+
+# Question 9
+
+print('Question 9: 1024 plus 1024')
+print('')
+q9response = input('Your Answer: ')
+q9answer = '2048'
+
+if q9response == '2048':
+    print('Correct,', q9response +' is right!')
+    score = score + 1
+    print('Current score is:', score)
+else:
+    print("I'm sorry,", q9response + 'is incorrect.')
+    print('Current score is:', score)
+
+# Question 10
+
+print('Question 10: What is 2 plus 2?')
+print('')
+q10response = input('Your Answer: ')
+q10answer = '4'
+
+if q10response == '4':
+    print('Correct,', q10response +' is right!')
+    score = score + 1
+    print('Current score is:', score)
+else:
+    print("I'm sorry,", q10response + 'is incorrect.')
+    print('Current score is:', score)
+print('')
+print('Thank you,', name + ' for taking my quiz')
+print('Your final score is:', score)
